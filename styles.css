@@ -3,10 +3,12 @@
 :root{
     --primary-color: #7C3AED;
     --dark-grey: #6b7280;
+    --off-white: #f3f4f6;
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
+    padding: 0;
 }
 
 hr{
@@ -109,3 +111,18 @@ hr{
     color: var(--primary-color);
 }
 
+/* sections */
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+    
+
+}
+
+.ow{
+    background-color: var(--off-white);
+}
