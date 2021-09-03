@@ -25,18 +25,22 @@ hr{
 .container-center{
     max-width: 600px;
     margin: auto;
+    text-align: center;
 }
 
 /* links */
-.links{
+.link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+   
+    
 }
 
 .link-primary{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color:white;
+    margin: 1rem auto;
 
 }
 
@@ -44,6 +48,7 @@ hr{
     color:var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid  var(--primary-color);
+    /* margin-bottom: 1rem; */
 }
 
 /* look into BEM naming convention for css */
@@ -138,7 +143,12 @@ footer{
     border-top-right-radius: 1rem;
 }
 
-.footer .links{
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer .link{
     color: white;
 }
 
